@@ -23,9 +23,3 @@ export class CompanyAccount extends DioAccount {
     }
   };
 }
-
-export class DioAccountWorks extends DioAccount {
-  constructor(name: string, accountNumber: number) {
-    super(name, accountNumber);
-  }
-}
